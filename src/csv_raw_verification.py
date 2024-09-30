@@ -29,4 +29,10 @@ def verify_csv_content(file_path: str) -> pd.DataFrame:
         print(f"An error occurred related to the csv file: {e}")
 
 
-verify_csv_content(os.getenv('CSV_FILE_PATH'))
+my_df = verify_csv_content(os.getenv('CSV_FILE_PATH'))
+
+#function for verifying the wich columns have null values
+def verify_null_values(df: pd.DataFrame) -> None:
+    print(df.isnull().sum())
+
+verify_null_values(my_df)
