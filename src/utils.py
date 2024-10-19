@@ -13,7 +13,7 @@ def read_creds_from_json() -> dict:
         with open(creds_path) as f:
             connection_parameters = json.load(f)
     except Exception as e:
-        raise ValueError(f'Error reading JSON file.') from e
+        raise ValueError('Error reading JSON file.') from e
     return connection_parameters
 
 
