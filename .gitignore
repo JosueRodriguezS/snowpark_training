@@ -114,11 +114,14 @@ celerybeat.pid
 # Environments
 .env
 .venv
+myenv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+creds.json
+1_load_data.sql
 
 # Spyder project settings
 .spyderproject

@@ -1,0 +1,1001 @@
+title,creators,nationality,quantity
+Java,James Gosling,Canada,1
+JavaScript,Brendan Eich,United States,1
+C,Dennis Ritchie,United States,1
+Python,Guido van Rossum,Netherlands,1
+SQL,Donald D. Chamberlin and Raymond F. Boyce,United States,2
+C++,Bjarne Stroustrup,Denmark,1
+HTML,Tim Berners-Lee,United Kingdom,1
+PHP,Rasmus Lerdorf,Denmark,1
+Perl,Larry Wall,United States,1
+MATLAB,Cleve Moler,United States,1
+Ruby,Yukihiro Matsumoto,Japan,1
+C#,Anders Hejlsberg,Denmark,1
+MySQL,David Axmark and Michael Widenius,Sweden,2
+Fortran,John Backus,United States,1
+CSS,Håkon Wium Lie,Norway,1
+R,Ross Ihaka and Robert Gentleman,New Zealand,2
+JSON,Douglas Crockford,United States,1
+Go,Rob Pike and Ken Thompson and Robert Griesemer,United States,3
+Scala,Martin Odersky,Switzerland,1
+Swift,Chris Lattner,United States,1
+Ada,Jean Ichbiah,France,1
+COBOL,Howard Bromberg and Norman Discount and Vernon Reeves and Jean E. Sammet and William Selden and Gertrude Tierney and Grace Hopper,United States,7
+Rust,Graydon Hoare,Canada,1
+PostgreSQL,Marc G. Fournier,Canada,1
+Kotlin,Andrey Breslav,Russia,1
+PowerShell,Jeffrey Snover,United States,1
+Pascal,Niklaus Wirth,Switzerland,1
+Haskell,Paul Hudak and John Hughes,United States,2
+TypeScript,Anders Hejlsberg,Denmark,1
+SAS,Anthony James Barr,United States,1
+ARM,Sophie Wilson and Steve Furber and Acorn Computers,United Kingdom,3
+Lisp,John McCarthy,United States,1
+Lua,Roberto Ierusalimschy,Brazil,1
+Julia,Jeff Bezanson and Alan Edelman and Stefan Karpinski and Viral B. Shah,United States,4
+Prolog,Alain Colmerauer,France,1
+Node.js,Ryan Dahl,United States,1
+Objective-C,Brad Cox,United States,1
+Clojure,Rich Hickey,United States,1
+Scheme,Guy Steele and Gerald Jay Sussman,United States,2
+Erlang,Joe Armstrong and Robert Virding and Mike Williams,Sweden,3
+Bash,Brian Fox,United States,1
+Mathematica,Stephen Wolfram,United States,1
+Elixir,José Valim,Brazil,1
+Dart,Lars Bak,Denmark,1
+Modula-2,Niklaus Wirth,Switzerland,1
+Tcl,John Ousterhout,United States,1
+ActionScript,Gary Grossman,United States,1
+BASIC,John G. Kemeny and Thomas E. Kurtz,United States,2
+awk,Alfred Aho and Peter J. Weinberger and Brian Kernighan,United States,3
+Solidity,Christian Reitwiessner and Alex Beregszaszi,Germany,2
+F#,Don Syme,United Kingdom,1
+OCaml,Xavier Leroy,France,1
+Eiffel,Bertrand Meyer,France,1
+Crystal,Ary Borenszweig and Juan Wajnerman and Brian Cardiff,Brazil,3
+Smalltalk,Alan Kay and Dan Ingalls and Adele Goldberg,United States,3
+Elm,Evan Czaplicki,United States,1
+Racket,Matthias Felleisen and Matthew Flatt and Robert Bruce Findler and Shriram Krishnamurthi,United States,4
+Groovy,James Strachan,United Kingdom,1
+D,Walter Bright and Andrei Alexandrescu,Romania,2
+Common Lisp,Scott Fahlman and Richard P. Gabriel and David A. Moon and Kent Pitman and Guy Steele and Dan Weinreb,United States,6
+CoffeeScript,Jeremy Ashkenas,United States,1
+APL,Kenneth E. Iverson,Canada,1
+PostScript,John Warnock and Chuck Geschke and Doug Brotz and Ed Taft and Bill Paxton,United States,5
+GraphQL,Lee Byron,United States,1
+SOAP,Dave Winer and Don Box and Bob Atkinson and Mohsen Al-Ghosein,United States,4
+Literate CoffeeScript,Jeremy Ashkenas,United States,1
+Rexx,Mike Cowlishaw,United Kingdom,1
+Nim,Andreas Rumpf,Germany,1
+Pug,Tj Holowaychuk,Canada,1
+LFE,Robert Virding,Sweden,1
+Markdown,John Gruber and Aaron Swartz,United States,2
+Liquid,Tobias Lütke,Canada,1
+Forth,Charles H. Moore,United States,1
+ML,Robin Milner,United Kingdom,1
+Haxe,Nicolas Cannasse,France,1
+WebAssembly,Alon Zakai,Israel,1
+Chapel,David Callahan and Hans Zima and Brad Chamberlain and John Plevyak,United States,4
+Oberon,Niklaus Wirth,Switzerland,1
+Oz,Gert Smolka,Germany,1
+Lasso,Kyle Jessup,United States,1
+ECMAScript,Brendan Eich,United States,1
+Red,Nenad Rakocevic,Serbia,1
+Simula,Ole-Johan Dahl,Norway,1
+Idris,Edwin Brady,United Kingdom,1
+SQLite,Dwayne Richard Hipp,United States,1
+AMPL,Robert Fourer and David Gay and Brian Kernighan,United States,3
+sed,Lee E. McMahon,United States,1
+PicoLisp,Alexander Burger,Germany,1
+V,Alexander Medvednikov,Russia,1
+BCPL,Martin Richards,United Kingdom,1
+REBOL,Carl Sassenrath,United States,1
+Hack,Julien Verlaguet and Alok Menghrajani and Drew Paroski,France,3
+URL,Tim Berners-Lee,United Kingdom,1
+Org,Carsten Dominik,Germany,1
+PureScript,Phil Freeman,United States,1
+Brainfuck,Urban Müller,Germany,1
+FLUX,Paul O’Shannessy,Australia,1
+Squirrel,Alberto Demichelis,Italy,1
+Monkey,Anthony Diamond,United States,1
+FLEX,Vern Paxson,United States,1
+Limbo,Rob Pike,United States,1
+Agda,Ulf Norell and Catarina Coquand,Sweden,2
+MUMPS,Neil Pappalardo,United States,1
+Occam,David May,United Kingdom,1
+HAML,Hampton Lintorn-Catlin,United Kingdom,1
+Emacs Lisp,Richard Stallman,United States,1
+ColdFusion,Joseph J. Allaire,United States,1
+Jinja,Armin Ronacher,United States,1
+AutoIt,Jonathan Bennett,Australia,1
+Makefile,Stuart Feldman,United States,1
+J,Kenneth E. Iverson and Roger Hui,Canada and China,2
+NewLisp,Lutz Mueller,Germany,1
+MIME,Nathaniel Borenstein and Ned Freed,United States,2
+Zig,Andrew Kelley,United States,1
+Icon,Ralph Griswold,United States,1
+TOML,Tom Preston-Werner,United States,1
+X10,Kemal Ebcioğlu and Saravanan Arumugam and Vijay Saraswat and Vivek Sarkar,Turkey and India and United States,4
+Ballerina,Sanjiva Weerawarana and James Clark and Sameera Jayasoma and Hasitha Aravinda and Srinath Perera and Frank Leymann,Sri Lanka and United Kingdom,6
+Io,Steve Dekorte,United States,1
+Turing,Ric Holt,Australia,1
+Mercury,Zoltan Somogyi,Hungary,1
+IDL,David Stern,United States,1
+Boo,Rodrigo B. De Oliveira,Brazil,1
+MicroPython,Damien P. George,Australia,1
+Hy,Paul Tagliamonte,United States,1
+ALGOL 60,John Backus and Friedrich L. Bauer and Julien Green and Charles Katz and John McCarthy and Peter Naur and Alan Perlis and Heinz Rutishauser and Klaus Samelson and Adriaan van Wijngaarden and Bernard Vauquois and Joseph Henry Wegstein and Michael Woodger,United States and Germany and France and Netherlands,12
+Zephir,Andres Gutierrez,Spain,1
+Arc,Paul Graham and Robert Morris,United States,2
+Ceylon,Gavin King,Australia,1
+LOLCODE,Adam Lindsay,Australia,1
+Lean,Leonardo de Moura,Brazil,1
+SNOBOL,David J. Farber and Ralph E. Griswold,United States,2
+RFC,Steve Crocker,United States,1
+Inform,Graham Nelson,United States,1
+reStructuredText,David Goodger,Canada,1
+PL/pgSQL,Jan Wieck,Germany,1
+Factor,Slava Pestov,Russia,1
+Self,David Ungar,United States,1
+Stata,William Gould,United States,1
+JSON5,Aseem Kishore,United States,1
+Pike,Fredrik Hübinette,Sweden,1
+NetLogo,Uri Wilensky,United States,1
+MiniD,Jarrett Billingsley,United States,1
+Perl 6,Larry Wall,United States,1
+ATS,Hongwei Xi,China,1
+AutoLISP,David Betz,United States,1
+Sass,Hampton Lintorn-Catlin,United Kingdom,1
+Ioke,Ola Bini,Sweden,1
+E,Mark S. Miller,United States,1
+Wren,Bob Nystrom,United States,1
+LiveScript,Jeremy Ashkenas and Satoshi Murakami and George Zahariev,United States and Japan and Bulgaria,3
+POV-Ray SDL,Chris Cason,United States,1
+YARA,Victor M. Alvarez,United States,1
+DNS,Paul Mockapetris,United States,1
+B,Ken Thompson and Dennis Ritchie,United States,2
+M4,Brian Kernighan and Dennis Ritchie,United States,2
+Dafny,K. Rustan M. Leino,Norway,1
+C--,Simon Peyton Jones,United Kingdom,1
+Ninja,Evan Martin,United States,1
+Wolfram Language,Stephen Wolfram,United States,1
+Gambas,Benoît Minisini,France,1
+JSON-LD,Dave Longley,United States,1
+Q,Arthur Whitney,Canada,1
+PEG.js,David Majda,United States,1
+HyperTalk,Dan Winkler,United States,1
+TLA,Leslie Lamport,United States,1
+Befunge,Chris Pressey,United States,1
+Speedie,Theodore H Smith,United States,1
+Miranda,David Turner,United Kingdom,1
+C3,Christoffer Lernö,Sweden,1
+Bicep,Anthony Martin,United States,1
+Seed7,Thomas Mertes,Germany,1
+Less,Alexis Sellier,France,1
+eC,Jérôme Jacovella-St-Louis,France,1
+Oberon-2,Niklaus Wirth and Hanspeter Mössenböck,Switzerland and Austria,2
+Genie,Jamie McCracken,United States,1
+Classroom Object Oriented Language,Alexander Aiken,United States,1
+PL/0,Niklaus Wirth,Switzerland,1
+SETL,Jacob T. Schwartz,United States,1
+JSON Schema,Kris Zyp,United States,1
+Falcon,Giancarlo Niccolai,Italy,1
+SaltStack,Thomas S Hatch,United States,1
+CLU,Barbara Liskov,United States,1
+wisp,Santosh Rajan and Irakli Gozalishvili and LeXofLeviafan and Chris McCormick,India and Georgia and United States,4
+ink,Joseph Humfrey,United States,1
+K,Arthur Whitney,Canada,1
+YASnippet,Zhang Chiyuan,China,1
+Scala.js,Martin Odersky,Switzerland,1
+Cap'n Proto,Kenton Varda,United States,1
+PRQL,Maximilian Roos,Germany,1
+Croc,Jarrett Billingsley,United States,1
+KaTeX,Emily Eisenberg,United States,1
+EJS,Tj Holowaychuk,Canada,1
+True BASIC,John George Kemeny and Thomas Eugene Kurtz,United States,2
+Markwhen,Rob Koch,United States,1
+Stylus,TJ Holowaychuk,Canada,1
+GAP,gap,Unknown,1
+Sather,Steve Omohundro,United States,1
+FreeBASIC,Andre Victor,United States,1
+TXL,James Cordy,Canada,1
+RMarkdown,JJ Allaire,Canada,1
+chrysaLisp,Chris Hinsley,United States,1
+starlark,Laurent Le Brun,France,1
+Latte,David Grudl,Czech Republic,1
+Smarty,Monte Ohrt and Messju Mohr and Uwe Tews,United States and Germany,3
+Nu,Tim Burks,United States,1
+Malbolge,Ben Olmstead,United States,1
+Xtend,Sven Efftinge and Sebastian Zarnekow,Germany,2
+Tiny BASIC,Dennis Allison,United States,1
+Caml,Gérard Huet and Guy Cousineau and Ascánder Suárez and Pierre Weis and Michel Mauny,France,5
+jq,Stephen Dolan,United States,1
+Unicon,Clint Jeffery,United States,1
+Ring,Mahmoud Fayed,Egypt,1
+High Level Assembly,Randall Hyde,United States,1
+commonmark,John MacFarlane,United States,1
+Cue,Marcel van Lohuizen,Netherlands,1
+Fennel,Calvin Rose,United States,1
+Curry,Michael Hanus and Sergio Antoy,Germany and Chile,2
+Enso,Wojciech Danilo,Poland,1
+Luna,Wojciech Danilo,Poland,1
+Golo,Webmaster,Unknown,1
+TreeSheets,Wouter van Oortmerssen,Netherlands,1
+BETA,Bent Bruun Kristensen and Ole Lehrmann Madsen and Birger Møller-Pedersen and Kristen Nygaard,Denmark,4
+janet,Calvin Rose,United States,1
+beef-lang,Brian Fiete,United States,1
+Dogescript,Zach Bruggeman,United States,1
+Koka,Daan Leijen,Netherlands,1
+UNLAMBDA,David Madore,France,1
+CWL,Luka Stojanovic,Serbia,1
+Ron,Juniper Tyree,United States,1
+EBNF,Niklaus Wirth,Switzerland,1
+Textile,netcarver,Unknown,1
+OpenLisp,Christian Jullien,France,1
+Taichi,Yuanming Hu,China,1
+LPC,Lars Pensjö,Sweden,1
+carp,Erik Svedäng,Sweden,1
+CWEB,Donald Knuth,United States,1
+dynamo-visual-language,Ian Keough,United States,1
+Euphoria,Jeremy Cowgar and Robert Craig and Matt Lewis and Derek Parnell,Canada and United States,4
+Hjson,Christian Zangl,Austria,1
+Guile,Aubrey Jaffer and Tom Lord and Miles Bader,United States,3
+Jule,Mertcan Davulcu,Turkey,1
+Aith,Superstar64,Unknown,1
+MDX,John Otander,United States,1
+CFML,Jeremy Allaire,Canada,1
+NewtonScript,Walter Smith,United States,1
+Djot,John MacFarlane,United States,1
+Emojicode,Theo Weidmann,Germany,1
+Plain English,Gerry Rzeppa and Dan Rzeppa,United States,2
+DRAKON,Stepan Mitkin,Russia,1
+beads-lang,Edward de Jong,Netherlands,1
+flowchart.fun,Rob Gordon,United States,1
+Svelte,Rich Harris,United States,1
+PROMETHEUS,Matt T. Proud,United States,1
+Mirah,Charles Oliver Nutter,United States,1
+Sqlalchemy,Michael Bayer,United States,1
+CPL,Christopher Strachey,United Kingdom,1
+Modula,Niklaus Wirth,Switzerland,1
+Bel,Paul Graham,United States,1
+progsbase,Martin F. Johansen,Denmark,1
+Readable,Lépine Kong,France,1
+Futhark,Troels Henriksen and Cosmin Oancea and Martin Elsman,Denmark and Romania,3
+CSON,Benjamin Lupton,United States,1
+JSON-stat,Xavier Badosa,Spain,1
+JAI,Jonathan Blow,United States,1
+Nial,Mike Jenkins,United Kingdom,1
+Yoix,Rich Drechsler and John Mocenigo,United States,2
+CodeQL,Pavel Avgustinov,Russia,1
+mgmt,James Shubin,United States,1
+Felix,John Skaller,Australia,1
+kaitai,Mikhail Yakshin,Russia,1
+FLOW-MATIC,Grace Hopper,United States,1
+mustache,Chris Wanstrath,United States,1
+Concise Encoding,Karl Stenerud,Norway,1
+Slope,Sloum,Unknown,1
+BNF,John Backus and Peter Naur,United States and Denmark,2
+Nushell,Yehuda Katz,Israel,1
+Curl,Steve Ward,United States,1
+GML,Charles Goldfarb and Edward Mosher and Raymond Lorie,United States,3
+Aldor,Richard Dimick Jenks and Barry Trager and Stephen Watt and James Davenport and Robert Sutor and Scott Morrison,United States and Canada,6
+mavo,Lea Verou,United States,1
+Joy,Manfred von Thun,Germany,1
+ProvideX,Michael F. King,United States,1
+Cobra,Charles Esterbrook,United States,1
+Rockstar,Dylan Beattie,United States,1
+JSFuck,Martin Kleppe,Germany,1
+Angelscript,Andreas Jönsson,Sweden,1
+Dojo,Alex Russal,United States,1
+Triton,Philippe Tillet,France,1
+Z shell,Paul Falstad,United States,1
+Karel,Richard E. Pattis,United States,1
+fay,Chris Done,Australia,1
+CSS Doodle,Yuan Chuan,China,1
+dat-protocol,Max Ogden,United States,1
+Filebench WML,Vasily Tarasov,Russia,1
+docopt,Vladimir Keleshev,Russia,1
+Vimwiki,Maxim Kim,United States,1
+Dartmouth BASIC,John G. Kemeny and Thomas E. Kurtz,United States,2
+Up-arrow notation,Donald Knuth,United States,1
+Desmos,Eli Luberoff,United States,1
+PCRE,Philip Hazel,United Kingdom,1
+Semantic Versioning,Tom Preston-Werner,United States,1
+XL,Christophe de Dinechin,France,1
+Harbour,Antonio Linares,Spain,1
+Cryptol,Adam C. Foltzer,United States,1
+pyret,Joe Gibbs Politz,United States,1
+Refal,Valentin Turchin,Russia,1
+Yorick,David H. Munro,United States,1
+carth,Johan Johansson,Sweden,1
+mckeeman-form,Bill McKeeman,United States,1
+Bucklescript,Evan Martin,United States,1
+Mu,Kartik K. Agaram,India,1
+IcedCoffeeScript,Max Krohn,United States,1
+Logica,Evgeny Skvortsov,Russia,1
+Grammar,Breck Yunits,United States,1
+Zuo,Matthew Flatt,United States,1
+contracts.coffee,Tim Disney,United States,1
+ToffeeScript,Miao Jiang,China,1
+BlackCoffee,Frank van Viegen,Netherlands,1
+heap.coffee,Roman I. Kuzmin,Russia,1
+MarkovJunior,Maxim Gumin,Russia,1
+UberScript,James Strachan,United States,1
+Caffeine,Roman I. Kuzmin,Russia,1
+Not Quite C,Nora Sandler,United States,1
+skulpt,Scott Graham,United States,1
+hasklig,Ryan Stewart,United States,1
+Speakeasy,Stanley Cohen,United States,1
+ooc,Amos Wenger,Switzerland,1
+ALEF,Phil Winterbottom,United Kingdom,1
+Neko,Nicolas Cannasse,France,1
+omega,Tim Sheard,United States,1
+BLISS,William Wulf,United States,1
+Elvish,Qi Xiao,China,1
+Streem,Yukihiro Matsumoto,Japan,1
+m3db,Xi Chen,China,1
+Nit,Jean Privat,France,1
+OX,Jurgen A. Doornik,Netherlands,1
+clay,KS Sreeram and Joe Groff,India and United States,2
+Sweet.js,Tim Disney,United States,1
+YoptaScript,Sam Gozman,Ukraine,1
+ROFF,Joe Ossanna and Ken Thompson,United States,2
+EmberScript,Michael Ficarra and Gordon L. Hempton,United States,2
+Binary notation,Gottfried Leibniz,Germany,1
+gleam,Louis Pilfold,United States,1
+Tree Notation,Breck Yunits,United States,1
+Ante,Jake Fecher,United States,1
+Whiley,David J. Pearce,United Kingdom,1
+Shen,Mark Tarver,United Kingdom,1
+Fibonacci,Antonio Albano and Giorgio Ghelli and Renzo Orsini,Italy and Italy and Italy,3
+AsciiDots,Aaron Janse,United States,1
+ArkScript,Alexandre Plateau and Pierre Pharel and Natendrtfm,France,3
+Melody,Yoav Lavi,Israel,1
+SCSS,Hampton Lintorn-Catlin,United Kingdom,1
+IP Pascal,Scott Moore,United States,1
+Formulating On-Line Calculations in Algebraic Language,Richard Merrill,United States,1
+Epigram,Conor McBride,United Kingdom,1
+SugarSS,Andrey Sitnik,Russia,1
+JOSS,Cliff Shaw,United States,1
+ColaScript,Dan Onoshko,Russia,1
+Raku,Larry Wall,United States,1
+Pure,Albert Gräf,Germany,1
+Ch,Ge Wang,China,1
+NetRexx,Mike Cowlishaw,United Kingdom,1
+svgbob,Jovansonlee Cesar,Unknown,1
+Ezhil,Muthu Annamalai,India,1
+checked-c,David Tarditi,United States,1
+zz,Arvid E. Picciani,Brazil,1
+Logtalk,Paulo Moura,Portugal,1
+Mech,Corey Montella,United States,1
+Cranelift,Jakob Olesen,Denmark,1
+Qalb,Ramsey Nasser,United States,1
+Hyperscript,Dominic Tarr,United States,1
+Observable,Mike Bostock,United States,1
+PL360,Niklaus Wirth,Switzerland,1
+Pan,Charles Loomis,United States,1
+Luna,TJ Holowaychuk,Canada,1
+invokator,Yann Orlarey,France,1
+ActivityPub,Christine Lemmer-Webber and Jessica Tallon and Erin Shepherd and Amy Guy and Evan Prodromou,United States,5
+Stencil,Kyle Fuller,United States,1
+Vigil,Bob Nystrom,United States,1
+kitten,Jon Purdy,United States,1
+Spatial,David Koeplinger,United States,1
+FP,John Backus,United States,1
+Unified Diff,Wayne Davison,United States,1
+TIScript,Andrew Fedoniouk,Russia,1
+Hackett,Alexis King,United States,1
+Gopher,Mark P. McCahill and Farhad Anklesaria and Paul Lindner and Daniel Torrey and Bob Alberti,United States,5
+ISWIM,Peter Landin,United Kingdom,1
+JSON with Comments,Muhammad Muzzammil,Pakistan,1
+Jolie,Claudio Guidi and Fabrizio Montesi,Italy,2
+HeLang,kifuan,China,1
+Txt2tags,Aurelio Jargas and Florent Gallaire and Jendrik Seipp,Brazil and France and Germany,3
+pasukon,Federico Ramirez,Argentina,1
+Extensible Embeddable Language,David Olofson,Sweden,1
+Sheep,Wouter Van Oortmerssen,Netherlands,1
+FML,Joe Groff,United States,1
+C2,Bas van den Berg,Netherlands,1
+plot,John Sundell,Sweden,1
+BQN,Marshall Lochbaum,United States,1
+ACL2,Robert S. Boyer and J Strother Moore,United States,2
+Object Rexx,Simon C. Nash,United Kingdom,1
+Quaint,Olivier Breuleux,France,1
+SRL,Karim Geiger,Unknown,1
+XBLite,David Szafranski,United States,1
+Lamdu,Eyal Lotem and Yair Chuchem,Israel,2
+Jison Lex,Zachary Carter,United States,1
+Carpet,Giandomenico Spezzano and Domenico Talia,Italy,2
+erg,Shunsuke Shibayama,Japan,1
+Flix,Magnus Madsen,Denmark,1
+Linotte,cpc6128,Unknown,1
+I-expressions,Egil Möller,Norway,1
+Speedcoding,John Backus,United States,1
+Wasp,Martin Šošić,Croatia,1
+crush,Axel Liljencrantz,Sweden,1
+spry,Göran Krampe,Sweden,1
+Dak,Naitik Shah,India,1
+comby,Rijnard van Tonder,Netherlands,1
+Violent ES,Matheus Dias de Souza,Brazil,1
+YAWL,Dean Mao,China,1
+Roc,Richard Feldman,United States,1
+haste,Anton Ekblad,Sweden,1
+Flow9,Dmitry Solomennikov,Russia,1
+femtolisp,Jeff Bezanson,United States,1
+Swallow,Saptak,India,1
+Glicol,Qichao Lan,China,1
+KRL,Daniel G. Bobrow and Terry Winograd,United States,2
+roy,Brian McKenna,Canada,1
+Newspeak,Gilad Bracha,Israel,1
+Lux,Eduardo Julián,Spain,1
+exkited,Brandon Barber,United States,1
+turnstile,Stephen Chang and Alex Knauth and Ben Greenman and Milo Turner and Michael Ballantyne,United States,5
+lobster,Wouter van Oortmerssen,Netherlands,1
+Superjson,Matthew Mueller,United States,1
+Earl Grey,Olivier Breuleux,France,1
+Rc,Tom Duff,United States,1
+Berry,官文亮,China,1
+Ć,Piotr Fusik,Poland,1
+Xbasic,Max Reason,United States,1
+Sinclair BASIC,Steve Vickers,United Kingdom,1
+PLANNER,Carl Hewitt,United States,1
+Differential Datalog,Leonid Ryzhyk,Russia,1
+Vale,Chris Hawblitzel,United States,1
+MIRC scripting language,Khaled Mardam-Bey,Syria,1
+gentee,Alexey Krivonogov,Russia,1
+Executable JSON,Todd Davies,United States,1
+relax,Makoto Murata,Japan,1
+MASM,Thomas Jaeger,Germany,1
+AsciiMath,Peter Krautzberger,Germany,1
+spider,Alon Gubkin,Israel,1
+Interlisp,Daniel G. Bobrow and Warren Teitelman and Ronald Kaplan,United States,3
+NestedText,Ken Kundert,United States,1
+Frost,Ethan Nicholas,United States,1
+Zonnon,Jürg Gutknecht,Switzerland,1
+hobbes,Kalani Thielen,Unknown,1
+circle-lang,Sean Baxter,United States,1
+lispyscript,Santosh Rajan,India,1
+Parser 3,Konstantin Morshnev,Russia,1
+ferret,Nurullah Akkaya,Turkey,1
+COMAL,Børge R. Christensen and Benedict Løfstedt,Denmark,2
+AL,Microsoft,United States,1
+Rapira,Andrey Ershov,Russia,1
+Adept,Isaac Shelton,United States,1
+bee,Elucian Moise,Unknown,1
+NGS,Ilya Sher,Russia,1
+fo,Alex Browne,United States,1
+Noweb,Norman Ramsey,United States,1
+Scroll,Breck Yunits,United States,1
+LUCID,Edward A. Ashcroft and William W. Wadge,United States,2
+Pyret,Ben Lerner and Joe Gibbs Politz,United States,2
+curv,Doug Moen,United States,1
+SATySFi,gfngfn,Unknown,1
+Mond,Rohan Singh,India,1
+Orc,Jayadev Misra,India,1
+Revolution,Mark Waddingham,United Kingdom,1
+Pomsky,Ludwig Stecher,Germany,1
+Subleq,David Roberts,United States,1
+Qore,David Nichols,United States,1
+Avail,Mark van Gulik and Todd L. Smith,Netherlands,2
+neeilang,Neeilan Selvalingam,Unknown,1
+hilvl,Holger Ludvigsen,Denmark,1
+Dale,tomhrr,Unknown,1
+BASIC Programming,Warren Robinett,United States,1
+hamler,Feng Lee,China,1
+xodio,Victor Nakoryakov,Russia,1
+kitlang,Ben Morris,Unknown,1
+Passerine,Isaac Cayton (slightknack),United States,1
+CSVw,Ivan Herman,Netherlands,1
+holyc,Terry A. Davis,United States,1
+hashlink,Nicolas Cannasse,France,1
+Etoys,Alan Kay,United States,1
+Caramel,Leandro Ostera,Brazil,1
+vdscript,Avery Lee,United States,1
+txr,Kaz Kylheku,Unknown,1
+Snap!,Brian Harvey,United States,1
+SISAL,James McGraw,United States,1
+Semantic Patch Language,Yoann Padioleau,France,1
+djangoql,Denis Stebunov,Russia,1
+koara,Andy Van Den Heuvel,Unknown,1
+Oxyl,J Rain De Jager,Unknown,1
+Cirru,ChenYong,China,1
+Nymph,Brandon Barber,United States,1
+Jsonnet,Dave Cunningham,United States,1
+Boron,Karl Robillard,United States,1
+Liberty BASIC,Carl Gundel,United States,1
+F-Script,Philippe Mougin,France,1
+Catala,Denis Merigoux,France,1
+Egison,Satoshi Egi,Japan,1
+GNU Data Language,Marc Schellens,Belgium,1
+Crema,Jacob Torrey and Jared Wright,United States,2
+Language Server Index Format,Dan Adler,United States,1
+noulith,Brian Chen,China,1
+JSON Query Language,Jakub Martin,Poland,1
+Livr,Viktor Turskyi,Ukraine,1
+QuakeC,John Carmack,United States,1
+Amiga E,Wouter Van Oortmerssen,Netherlands,1
+Potion,Jonathan Gillette,United States,1
+dlvm,Chris Lattner,United States,1
+noisecraft,Maxime Chevalier-Boisvert,France,1
+raptorjit,Mike Pall,United States,1
+visdown,Amit Kapoor,India,1
+Linda,David Gelernter,United States,1
+CMS-2,Vincent Cecil Secades and David Clark Rummler,United States,2
+jayfor,Felix Angell,Unknown,1
+Z,Chris Done,United Kingdom,1
+JS++,Roger Poon and Anton Rapetov,Unknown,2
+Q,Albert Gräf,Germany,1
+Pact,Stuart Popejoy,United States,1
+ink-lang,Linus Lee,Unknown,1
+sixten,Olle Fredriksson,Sweden,1
+oden,Oskar Wickström,Sweden,1
+abs,Alessandro Nadalin,Italy,1
+Fun,Marcus Westin,Unknown,1
+Uniform eXchange Format,Mark Summerfield,United States,1
+Plankalkul,Konrad Zuse,Germany,1
+JSLT,Lars Marius Garshol,Norway,1
+hacspec,Franziskus Kiefer,Germany,1
+manool,Alex Protasov,Russia,1
+Judoscript,James Jianbo Huang,China,1
+parasail,Seth Tucker Taft,United States,1
+Umka,Vasiliy Tereshkov,Russia,1
+pie-lang,David Christiansen,Unknown,1
+Go!,Francis McCabe and Keith Clark,United States,2
+ToonTalk,Ken Kahn,United States,1
+RSS,Dan Libby and Ramanathan V. Guha,United States,2
+Note,Breck Yunits,United States,1
+KRC,David Turner,United Kingdom,1
+Claro,Jason Steving,Unknown,1
+QUEL,Michael Stonebraker,United States,1
+TRAC,Calvin Mooers,United States,1
+partiql,James Siri,United States,1
+Fjölnir,Snorri Agnarsson,Iceland,1
+Nice,Daniel Bonniot,France,1
+JSON Graph Spec,Byron Ruth,United States,1
+owen-lang,Paw Møller,Denmark,1
+Zot,Adam Treat,United States,1
+StruQL,Mary Fernández and Dan Suciu and Igor Tatarinov,United States,3
+Yedalog,Brian Chin and Daniel von Dincklage and Vuk Ercegovac and Peter Hawkins and Mark S. Miller and Franz Och and Chris Olston and Fernando Pereira,United States,8
+Coco,Satoshi Murakami,Japan,1
+pikelet,Brendan Zabarauskas,Unknown,1
+k-framework,(no author),Unknown,1
+scribble,Matthew Flatt,United States,1
+Newsqueak,Rob Pike,United States,1
+hazel,Cyrus Omar,United States,1
+Janus,Christopher Lutz and Howard Derby and Tetsuo Yokoyama and Robert Glück,International,4
+XOTcl,Gustaf Neumann and Uwe Zdun,Germany,2
+[x]it!,Jan Heuermann,Germany,1
+Metalang99,Sima Kinsart,Unknown,1
+Hodor,Drew Morris,Unknown,1
+Alma,Carl Mäsak,Sweden,1
+Battlestar,Alexander Rødseth,Norway,1
+latino,Primitivo R. Montero,Unknown,1
+BALGOL,Bob Barton,United States,1
+lemon,Zhicheng Wei,China,1
+Hush,Gabriel Bastos,Brazil,1
+co-dfns,Aaron Hsu,United States,1
+Joule,E. Dean Tribble,United States,1
+MultiDimensional eXpressions,Mosha Pasumansky,Unknown,1
+ldpl,Martín del Río,Spain,1
+pointless,Avery N. Nortonsmith,Unknown,1
+JSON Lines,Ian Ward,United States,1
+FaCT,Deian Stefan,Unknown,1
+zenscript,Stan Hebben,Unknown,1
+Gödel (Goedel),John Lloyd and Patricia Hill,Unknown,2
+parenthetic,Cameron McKinnon,Unknown,1
+cor,Yosbel Marin,Cuba,1
+UCG,Jeremy Wall,United States,1
+Invisible XML,Steven Pemberton,United Kingdom,1
+Xidoc,Adam Blažek,Czech Republic,1
+Project Mentat,Richard Newman,United States,1
+Aime,Ciprian Niculescu,Romania,1
+ASDF,Perry Greenfield and Michael Droettboom and Erik M. Bray,United States,3
+Mangle,Mangle Team,Unknown,1
+multiaddr,Juan Batiz-Benet,United States,1
+FRACTRAN,John Conway,United Kingdom,1
+RTL/2,John Barnes,United Kingdom,1
+Sibilant,Jacob Rothstein,United States,1
+JSON lambda,Chris Done,United Kingdom,1
+fleck,Chris McCormick,United States,1
+cat,Christopher Diggins,United States,1
+Draco,Chris Gray,United States,1
+Zimbu,Bram Moolenaar,Netherlands,1
+Z-flat,Adam Hutchings,Unknown,1
+Incipit,Lucas de Sena,Unknown,1
+Picat,Neng-Fa Zhou and Jonathan Fruhman,China and United States,2
+Explorer,Hannah Ritchie and Breck Yunits and Shahid Ahmad,United States,3
+A#,Dr. Martin C. Carlisle and Lt Col Ricky Sward and Maj Jeff Humphries,United States,3
+topshell,Joakim Ahnfelt-Rønne,Denmark,1
+AIMMS,Johannes J. Bisschop and Marcel Roelofs,Netherlands,2
+LinearML,Julien Verlaguet,France,1
+Cone,Jonathan Goodwin,Unknown,1
+COMIT,Victor Yngve,Unknown,1
+Basic4ppc,Erel Uziel,Israel,1
+Rouge,Arlen Cuss,Canada,1
+tao3d,Christophe de Dinechin,France,1
+elena,Alex Rakov,Russia,1
+Sophia,Robert Virding,Sweden,1
+Breccia,Michael Allan,Unknown,1
+plam,Sandro Lovnički,Croatia,1
+Color BASIC,Bill Gates,United States,1
+Tao,Joshua Barretto,United States,1
+HuJSON,David Crawshaw,Unknown,1
+bamboo,Yoichi Hirai,Japan,1
+Wu,niql,Unknown,1
+tangledown,Nicholas Bollweg,Unknown,1
+Pod6,Aliaksandr Zahatski,Belarus,1
+Fuzuli,Mehmet Hakan Satman,Turkey,1
+Topaz,m-schm,Unknown,1
+PML,Christian Neumanns,Germany,1
+FL,John Backus,United States,1
+Jeeves,Jean Yang,United States,1
+buzz,Benoit Giannangeli,Unknown,1
+ulisp,David Johnson-Davies,Unknown,1
+orange,Robert Fratto,Unknown,1
+Heron,Christopher Diggins,United States,1
+taf,Manuel Simoni,Unknown,1
+Blacklight,Anthony M. Cook,Unknown,1
+jiyu,Josh Huelsman,Unknown,1
+gura,Yutaka Saito,Japan,1
+CEEMAC,Brooke Boering,Unknown,1
+swizzle,Robert Swierczek,Unknown,1
+Notation3,Tim Berners-Lee,United Kingdom,1
+Euclid,Butler Lampson,United States,1
+OK,Jesse Duffield,Australia,1
+ELFE,Christophe de Dinechin,France,1
+Parlog,Steve Gregory and Keith L. Clark,United Kingdom,2
+CSpydr,Spydr06,Unknown,1
+Ripple,Yuya Watari,Japan,1
+maraca-lang,Jon Whitehead,Unknown,1
+Ook,David Morgan-Mar,Australia,1
+protium,Diarmuid Pigott,Ireland,1
+Robots.txt,Martijn Koster,Netherlands,1
+Spice Lisp,Scott Fahlman,United States,1
+wah,Tom MacWright,United States,1
+semicolon,Pavan Kumar Sunkara,India,1
+Kalyn,Radon Rosborough,Unknown,1
+obsidian,Michael Coblenz,United States,1
+NilScript,Ricci Adams,Unknown,1
+SQRL,Josh Yudaken and Pete Hunt and Julian Tempelsman and Paul Mou and Yunjing Xu and David Newman,Unknown,6
+mdl,Reid Tatge,Unknown,1
+JCOF,Martin Dørum,Norway,1
+IPL,Johan Georg Granström,Sweden,1
+Astatine,Spydr06,Unknown,1
+jasper,Emanuel Rylke,Unknown,1
+LARP,Marco Lavoie,Canada,1
+Liso,Olivier Breuleux,France,1
+Nimskull,Andreas Rumpf,Germany,1
+Game Oriented Assembly Lisp,Andy Gavin,United States,1
+P′′,Corrado Böhm,Italy,1
+Ecstasy,Cameron Purdy,Unknown,1
+ColorForth,Charles H. Moore,United States,1
+TTM,Steven M. Caine and E. Kent Gordon,Unknown,2
+Corman Common Lisp,Scott Fahlman and Richard P. Gabriel and David A. Moon and Kent Pitman and Guy Steele and Dan Weinreb and Roger Corman,United States,7
+co2,Dave Griffiths,Unknown,1
+rhine,Ramkumar Ramachandra,Unknown,1
+Mobl,Zef Hemel,Unknown,1
+cperl,Reini Urban,Austria,1
+keli,Wong Jia Hau,Singapore,1
+Janus,Ken Kahn,United States,1
+mlatu,Caden Haustein,Unknown,1
+a Lisp Environment,Thomas Bradford,Unknown,1
+Forml,Andrew Stein,Unknown,1
+Ciel,Ron Garret,Unknown,1
+Slideshow,Matthew Flatt and Robert Bruce Findler,United States,2
+Join Java,G. Stewart von Itzstein,Unknown,1
+juniper,Caleb Helbling,Unknown,1
+huginn,Marcin Konarski,Poland,1
+tuplemarkup,John Judnich,Unknown,1
+Fardlang,CompilingCoder and JustCoding123 and zplusfour and Hg0428,Unknown,4
+HUGO,Juhana Leinonen,Finland,1
+LiteScript,Lucio M. Tato,Unknown,1
+Om,Jason Erb,Unknown,1
+Kawa,Per Bothner,Sweden,1
+Savi,Joe Eli McIlvain,Unknown,1
+Jisp,Nelo Mitranim,Unknown,1
+mys,Erik Moqvist,Unknown,1
+RamdaScript,Yosbel Marín,Cuba,1
+hivemind,Alexander Ivanov,Russia,1
+tablam,Mario Montoya,Unknown,1
+Ante,Michael Dvorkin,Unknown,1
+Rita,Šarūnas Navickas,Lithuania,1
+JSONScript,Evgeny Poberezkin,Russia,1
+CGOL,Vaughan Ronald Pratt,Unknown,1
+Little Implementation Language,P. J. Plauger,United States,1
+h,Christine Dodrill,Unknown,1
+pinto,Peter Graf,Unknown,1
+JLang,Joao Marcelo Brito,Brazil,1
+Link,Lance Pollard,Unknown,1
+Trex,James Clark,Unknown,1
+SubX,Kartik K. Agaram,India,1
+AgentSpeak,Anand Rao,India,1
+BCX,Kevin Diggins and Robert Wishlaw,United States,2
+PascalABC.NET,S.S. Mikhalkovich and Ivan Bondarev and A.V. Tkachuk and S.O. Ivanov,Russia,4
+kei,Tiago Campos,Brazil,1
+mages,Florian Rappl,Unknown,1
+Ikarus Scheme implementation,Abdulaziz Ghuloum,Unknown,1
+LYaPAS,Arkady D. Zakrevskij,Russia,1
+Post production,Emil Post,Unknown,1
+6gunz,Matthew Steel,Unknown,1
+edgelisp,Manuel Simoni,Unknown,1
+jonprl,Jonathan Sterling,Unknown,1
+unseemly,Paul Stansifer,Unknown,1
+txtzyme,Ward Cunningham,United States,1
+typecobol,Laurent Prud'hon,France,1
+loci,Stephen Cross,Unknown,1
+Encore,Stephan Brandauer and Elias Castegren and Dave Clarke,Unknown,3
+Brain-Flak,DJMcMayhem,Unknown,1
+hrqr,Valentin Heun,Unknown,1
+DragonBASIC,Ulrich Hecht,Germany,1
+fp,Joona Piirainen,Finland,1
+Little b,Aneil Mallavarapu,Unknown,1
+Plaid,Jonathan Aldrich,Unknown,1
+adamant,Jeff Walker,Unknown,1
+nianiolang,Andrzej Gasienica-Samek,Unknown,1
+flua,Eduard Urbach,Russia,1
+Kami,Katie Ampersand,Unknown,1
+Nasal,Andy Ross,United States,1
+s-lang,John E. Davis,Unknown,1
+Sweet Expressions,David A. Wheeler and Alan Manuel K. Gloria,United States,2
+TMG,Robert M. McClure,Unknown,1
+ircis,Arjun Nair,Unknown,1
+GUIDO music notation,Holger H. Hoos and Keith Hamel,Germany,2
+V,DJMcMayhem,Unknown,1
+lambda-zero,Chris Clark,Unknown,1
+Onyx,Jason Evans,Unknown,1
+zl,Kevin Atkinson,Unknown,1
+OpenComal,Christian Pietsch,Germany,1
+orca,Lee Ki-Yeul,Unknown,1
+RTF,Richard Brodie and Charles Simonyi and David Luebbert,United States,3
+awl,Zaven Muradyan,Unknown,1
+juicy,Jonathan Avery,Unknown,1
+RapidBatch,Jan Max Meyer,Germany,1
+kerf,Kevin Lawler,Unknown,1
+LES,David Piepgrass,Unknown,1
+Red,John Backus,United States,1
+Star,ALANVF,Unknown,1
+Jazz,playXE,Unknown,1
+Twelf,Frank Pfenning and Carsten Schürmann,United States,2
+Statsplorer,Krishna Subramanian and Chat Wacharamanotham,Unknown,2
+NorthStar BASIC,Charles A. Grant and Mark Greenberg,United States,2
+Flex language,Alan Kay,United States,1
+glush,Magnus Holm,Unknown,1
+Taijilang,Simeon Chaos,Unknown,1
+ralph,Bastian Müller,Germany,1
+I,Marshall Lochbaum,Unknown,1
+fjs,Mark Hahn,Unknown,1
+phorth,Joe Jevnik,Unknown,1
+Ham,James Keane,Unknown,1
+badlanguage,Martin Capodici,Unknown,1
+gintonic,Christian Budde Christensen,Unknown,1
+jedlang,James Edwards,Unknown,1
+blur-markup-language,Andrew Yoon,Unknown,1
+formality,Victor Maia,Unknown,1
+ramen,Cedric Cellier,Unknown,1
+corescript,Stephan Bruny,Unknown,1
+lezer,Marijn Haverbeke,Netherlands,1
+U,Yassen Bantchev,Unknown,1
+elegance,Nathan Merrill,Unknown,1
+hecl,David N. Welton and Wolfgang Kechel,Unknown,2
+Slick,Kye W. Shi,Unknown,1
+SASL,David Turner,Unknown,1
+Atom,Thomas Hawkins,Unknown,1
+grid-notation,Cameron McEfee,Unknown,1
+MewMew,Palash Bauri,Unknown,1
+Khepri,Matt Bierner,Unknown,1
+Typographical Number Theory,Douglas Hofstadter,United States,1
+Scheme 2-D,elucent,Unknown,1
+ALTRAN,W. Stanley Brown,Unknown,1
+y-lang,Sander Mertens,Unknown,1
+Calypso,ThePuzzlemaker,Unknown,1
+whack,Onchere Bironga,Unknown,1
+preforth,Ulrich Hoffmann,Germany,1
+remix,Jay McCarthy,United States,1
+FORMAC,Jean E. Sammet,United States,1
+emerald-lang,Zach Perkitny,Unknown,1
+polymath,JL,Unknown,1
+Edina,Cerus,Unknown,1
+Jammy,Mark,Unknown,1
+nlpl,Daniel Garcia,Unknown,1
+Calc4,Yuya Watari,Unknown,1
+Serious,lorentzj,Unknown,1
+c-talk,Konstantin Knizhnik,Russia,1
+Lush,Leon Bottou and Yann Le Cun,Unknown,2
+Post-X,P.A.C. Bailes and L.H. Reeker,Unknown,2
+prompter,Graham Nelson,Unknown,1
+Squire,Sam Westerman,Unknown,1
+Mentat,Andrew S. Grimshaw and Jane W.S. Liu,Unknown,2
+BlazeX,RoMeAh,Unknown,1
+Knight,Sam Westerman,Unknown,1
+Hook,Fabio de Souza Villaca Medeiros,Unknown,1
+toki sona,Dylan Madisetti,Unknown,1
+CokeScript,Batiste Bieler,Unknown,1
+patch,Larry Wall,United States,1
+Joe-E,David A. Wagner,Unknown,1
+AMBIT,Carlos Christensen,Unknown,1
+Insitux,Patrick Bowen,Unknown,1
+Cane,Jack Clarke,Unknown,1
+sill,Dennis Griffith,Unknown,1
+r3,Pablo H. Reda,Unknown,1
+PCrap,valkarias,Unknown,1
+RigC,Poeta Kodu,Unknown,1
+Chika,Patrick,Unknown,1
+latte-js,Sean Micklethwaite,Unknown,1
+Lesma,Alin Ali Hassan,Unknown,1
+HuwCode,Huw Pritchard,Unknown,1
+penguor,Carl Schierig,Unknown,1
+taxa,Dan Motzenbecker,Unknown,1
+acorn-lang,Jonathan Goodwin,Unknown,1
+newclay,Joe Groff,Unknown,1
+Idio,Ian Fitchet,Unknown,1
+Mewl,Palash Bauri,Unknown,1
+Storymatic,Zachary Sakowitz,Unknown,1
+Horse64,Ellie,Unknown,1
+Workfl,Adam Dullage,Unknown,1
+GamerLanguage,Dilan Nair,Unknown,1
+Entropy,Daniel Temkin,Unknown,1
+o42a,Ruslan Lopatin,Unknown,1
+Suneido,Andrew McKinlay,Unknown,1
+whalecalf,Alexander Okhotin,Unknown,1
+xduce,Haruo Hosoya and Benjamin C. Pierce,Unknown,2
+WLambda,Weird Constructor,Unknown,1
+Nuprl,Robert Lee,Unknown,1
+Hot Cocoa Lisp,Sam Auciello,Unknown,1
+Bayer Expressions,Dave Bayer,Unknown,1
+cytosol,tiatomee,Unknown,1
+Yakou Lang,KyleLin921021,Unknown,1
+Typecast.js,Bishop Zareh,Unknown,1
+Curly,jenra,Unknown,1
+Rye,Janko Metelko,Unknown,1
+Tag Line Commands,Michael Chance,Unknown,1
+daonode,Simeon Chaos,Unknown,1
+RustScript,Mikail Khan,Unknown,1
+shadama,Yoshiki Ohshima and Dan Amelang and Bert Freudenberg,Unknown,3
+RicScript,Rickard,Unknown,1
+Bizubee,Gabe and Gabe,Unknown,2
+KavaScript,Maxime Chevalier-Boisvert,Unknown,1
+Octune,Gary Feng,Unknown,1
+mlpolyr,Nicolas Ojeda Bar,Unknown,1
+Riff,Darryl Abbate,Unknown,1
+Cotton,Mado Nanika,Unknown,1
+ForthScript,Yuriy Zamyatin,Unknown,1
+lamderp,James Keane,Unknown,1
+Iode,Danilo Lekovic,Unknown,1
+PearScript,Ondřej Kocián,Czech Republic,1
+H++,Harold L. Marzan,Unknown,1
+Jingo,Owez,Unknown,1
+Hina,Mark,Unknown,1
+microl,Mike Redko,Unknown,1
+Fern,Spencer Comin,Unknown,1
+MeanscriptCLI,jussehoo,Unknown,1
+lambcalc,William Rutherford,Unknown,1
+Broccoli,CoconutMacaroon,Unknown,1
+draconian,Hextanium,Unknown,1
+mai,Ahmed Khaled,Egypt,1
+Flare,Dmitriy Myshkin and Eliezer Yudkowsky and Mike Li and Michael Baj and Richard Walker,Unknown,5
+michelson,Grégoire Henry,Unknown,1
+Timpani,Pouya Kary,Unknown,1
+EverParse3D,Nikhil Swamy and Tahina Ramananandro and Aseem Rastogi and Irina Spiridonova and Haobin Ni and Dmitry Malloy and Juan Vazquez and Michael Tang and Omar Cardona and Arti Gupta,Unknown,9
+V,Mikhail Auguston and Alfredo Delgado,Unknown,2
+xt3d,Shriram Krishnamurthi and Kathryn E. Gray and Paul T. Graunke,Unknown,3
+truck,Anmol Gautam,Unknown,1
+t-lang,Justin Hu,Unknown,1
+Linoleum (L.in.oleum),Alessandro Ghignola,Unknown,1
+mockingbird-notation,David C. Keenan,Unknown,1
+Address,Kateryna Lohvynivna Yushchenko,Ukraine,1
+nroff,Joe Ossanna,Unknown,1
+Semi-Thue,Axel Thue,Unknown,1
+Superplan,Heinz Rutishauser,Unknown,1
+Advice Taker,John McCarthy,United States,1
+Optimization Programming Language,Pascal Van Hentenryck,Belgium,1
+DAD,Scott Ambler and Mark Lines,Unknown,2
+Nyquist,Roger Dannenberg,United States,1
+Rosetta-2,Apple Inc,United States,1
+Swym,Laurie Cheers,Unknown,1
+Bistro,Nikolas S. Boyd,Unknown,1
+SMILES arbitrary target specification,David Weininger,Unknown,1
+Moescript,Renzhi Li aka. Belleve Invis,Unknown,1
+wats,Pierre Rossouw,Unknown,1
+weebasic,Maxime Chevalier-Boisvert,Unknown,1
+FutureScript,Zhenzhen Zhan,Unknown,1
+TextFrame,Mark Norman Francis,Unknown,1
+Broccoli,Fogus,Unknown,1
+stacklang,Justin Hu,Unknown,1
+Broccoli,Mathieu CAROFF,Unknown,1
+datev,Markus Voelter and Sergej Koˇsˇcejev,Germany,2
+Linked Markdown,Luis Cuende,Unknown,1
+Interleaved Notation,Michael Homer,Unknown,1
+Nosica,David Jobet,Unknown,1
+beagle,Alex Couch,Unknown,1
+Moonrock Basic Compiler,Rowan Crowe,Unknown,1
+tsar,adam-mcdaniel,Unknown,1
+RoyalScript,Josh Weinstein,Unknown,1
+Tawa,Jan Blackquill,Unknown,1
+Sugi,sugi-lang,Unknown,1
+enso,Alex Loh,Unknown,1
+Lorel,Serge Abiteboul and Dallan Quass and Jason McHugh and Jennifer Widom and Janet L. Wiener,France,5
+UnQL,Peter Buneman and Mary Fernandez and Dan Suciu,Unknown,3
+IT,Alan Perlis,United States,1
+SQHTML,Katrina Grace,Unknown,1
+BIPLAN,Giovanni Blu Mitolo,Unknown,1
+Datalisp,ilmu,Unknown,1
+lunar,David A. Moon,United States,1
+Plush,Maxime Chevalier-Boisvert,Unknown,1
+scopes,Leonard Ritter,Unknown,1
+Vortex,Christopher Lewis,Unknown,1
+Mascara,Olav Junker Kjær,Unknown,1
+paperalgo,Kragen Javier Sitaker,Unknown,1
+rlmeta,Rickard Lindberg,Unknown,1
+Arturo,Yanis Zafirópulos,Unknown,1
+ctalk,Robert Kiesling,Unknown,1
+slim-pl,Herman Venter,Unknown,1
+Lambda Diagrams,John Tromp,Unknown,1
+c-smile,Andrew Fedoniouk,Unknown,1
+pyke,Paul Haesler and Bruce Frederiksen,Unknown,2
+ra,Omar Ahmad,Unknown,1
+retroforth,Charles Childers,Unknown,1
+tilton,Douglas Crockford,United States,1
+Descript,Jakob Hain,Unknown,1
+D++,Daniel Smith,Unknown,1
+orca-lang,Karl Robillard,Unknown,1
+cleanlang,Santosh Rajan,Unknown,1
+Elpi,Enrico Tassi,Unknown,1
+Hilltop,Dan Swirsky,Unknown,1
+none,Leonard Ritter,Unknown,1
+OpenSpice,Stephen Leach,Unknown,1
+potential,Tim Carstens,Unknown,1
+Typst,Laurenz Mädje,Unknown,1
+kayia,David Broderick,Unknown,1
+merd,Yoann Padioleau,Unknown,1
+paxScript,Alexander Baranovsky,Unknown,1
+skew,Evan Wallace,Unknown,1
+order,Vesa Karvonen,Unknown,1
+UnQL,Richard Hipp and Damien Katz,Unknown,2
+XQL,Hiroshi Ishikawa and Kazumi Kubota and Yasuhiko Kanemasa,Unknown,3
+Zeta,Russ Cox and Tom Bergan and Austin T. Clements and Frans Kaashoek and Eddie Kohler,Unknown,5
+CDL,Christian Hochberger,Unknown,1
+BridgeTalk,Jeffrey G. Bonar and Blaise W. Liffick,Unknown,2
+JACL,Ioi K. Lam and Brian Smith,Unknown,2
+Patchwork,Ronen Barzel and David Salesin,Unknown,2
+Pluk,Bart van der Werf,Unknown,1
+Arc Assembly,Kathleen Booth,Unknown,1
+bawk,Bob Brodt,Unknown,1
+CDL++,Christian Hochberger,Unknown,1
+CMIX,Paul Lansky,Unknown,1
+hoot-smalltalk,Nikolas S. Boyd,Unknown,1
+OOPS+,Els Laenens and Dirk Vermeir,Unknown,2
+PopAsm,Helcio Bezerra de Mello,Unknown,1
+Verse,Simon Peyton Jones and Tim Sweeney and Lennart Augustsson and Koen Claess,Unknown,4
+xs,Sturm Mabie,Unknown,1
+Birkbeck Assembly,Kathleen Booth,Unknown,1
+C flat,Bill McKeeman,Unknown,1
+FlowNet,Erann Gat and Mike Ciholas,Unknown,2
+Lemick,Alexei Iliasov,Unknown,1
+Magic Paper,Jean E. Sammet,United States,1
+NUA-Prolog,Douglas Frank Palmer,Unknown,1
+OOPS,Els Laenens and Dirk Vermeir,Unknown,2
+OpenAda,Patrick Rogers and Andy Wellings,Unknown,2
+PIXIN,Malcolm Phillip Atkinson,Unknown,1
+ProVerif,Bruno Blanchet,Unknown,1
+Py,David Cuny,Unknown,1
+Refined C,Henry G. Dietz,Unknown,1
+REL,Peter C. Lockemann and Frederick B. Thompson,Unknown,2
+concept-script,Gottlob Frege,Germany,1
+StoneCutter,John D. Leidel and David Donofrio and Frank Conlon,Unknown,3
+XML-GL,Stefano Ceri and Sara Comai and Ernesto Damiani and Piero Fraternali and Stefano Paraboschi and Letizia Tanca,Unknown,5
+Data Package,Paul Walsh and Rufus Pollock,Unknown,2
+N,Gael de La Croix Vaubois and Catherine Moulinoux and Benoît Derot,Unknown,3
+VEX,Wayne Citrin and Richard Hall and Benjamin Zorn,Unknown,3
+yoga,Trevor Blackwell,Unknown,1
+zish,Tony Locke,Unknown,1
+Aardappel,Wouter Van Oortmerssen,Unknown,1
+Culler-Fried System,Glenn Culler and Burton Fried,Unknown,2
+cuscus,Mariana Marasoiu and Detlef Nauck and Alan F. Blackwell,Unknown,3
+EDSAC Initial Orders,David Wheeler and Maurice Wilkes and Stanley Gill,Unknown,3
+gitignore,Linus Torvalds,United States,1
+Lola-2,Niklaus Wirth,Switzerland,1
+magritte,Jeanine Adkisson,Unknown,1
+rbasic,Mike Welch,Unknown,1
+SIL,Niels Houbak,Unknown,1
+Very Tiny Language,Garry Shannon and Frank McCoy,Unknown,2
+XQL,Jonathan Robie,Unknown,1
