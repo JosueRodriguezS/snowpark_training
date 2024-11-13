@@ -1,19 +1,29 @@
 # Snowpark Project for Data Transformation and Sigma Views
 
-This project uses Snowflake's **Snowpark** library to ingest, clean, and transform raw data from five CSV files. The cleaned and transformed data is stored in Snowflake and organized into views optimized for **Sigma** analytics.
+## Overview
+This project involves processing and transforming raw data from multiple CSV files into cleaned, structured data for further analysis and visualization. The data is sourced from publicly available datasets on Kaggle.
 
-## Project Overview
+## Data Sources
+The raw data primarily comes from the following Kaggle datasets:
 
-1. **Ingest**: Load raw data from five CSV files into Snowflake.
-2. **Clean**: Perform data cleaning tasks such as handling null values, correcting data types, and standardizing fields.
-3. **Transform**: Apply transformations to the cleaned data to prepare it for analysis.
-4. **Create Views**: Generate views for Sigma to visualize and analyze the transformed data.
+- [Programming Languages Dataset by Sujay Kapadnis](https://www.kaggle.com/datasets/sujaykapadnis/programming-languages)
+- [GitHub Programming Languages Dataset by Isaac Wen](https://www.kaggle.com/datasets/isaacwen/github-programming-languages-data)
 
-## Prerequisites
+These datasets contain various data related to programming languages, including usage statistics and trends over time.
 
-- **Snowflake Account**: Ensure you have access to a Snowflake environment.
-- **SnowSQL**: Install SnowSQL to upload and interact with Snowflake.
-- **Python**: Install Python (version 3.8 or higher) to run Snowpark scripts.
-- **Snowpark Library**: Install the Snowpark Python library:
-  ```bash
-  pip install snowflake-snowpark
+## Purpose
+The goal of this project is to clean, transform, and structure the raw data in Snowflake using Snowpark, and then present it via Sigma dashboards for easier analysis and decision-making.
+
+## Workflow
+1. **Data Ingestion**: The raw CSV files are loaded into Snowflake using Snowpark.
+2. **Data Cleaning**: The data is cleaned and preprocessed to remove inconsistencies and ensure that it is in a suitable format for analysis.
+3. **Data Transformation**: The cleaned data is transformed into meaningful views in Snowflake.
+4. **Data Visualization**: The transformed data is then used to create customized visualizations and dashboards in Sigma.
+
+## Setup
+- **Snowflake**: Set up a Snowflake account and configure the necessary environments for loading and transforming the data.
+- **Python**: Use Python and the Snowpark library to automate data ingestion, cleaning, and transformation tasks.
+- **Sigma**: Create custom dashboards in Sigma to visualize the results.
+
+## Conclusion
+This project demonstrates the ability to work with Snowflake and Snowpark to process and visualize data for business insights, specifically in the context of programming language trends and GitHub data.
