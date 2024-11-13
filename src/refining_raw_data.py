@@ -46,7 +46,7 @@ print(f"Number of duplicates in github prs: {github_repos_duplicates}")
 
 #region handling Missing Values
 # List of colums to check for null values
-def check_for_null_and_0_values(raw_data) -> None:
+def check_for_null_and_na_values(raw_data) -> None:
     columns = raw_data.columns
 
     for column in columns:
@@ -68,23 +68,23 @@ With this block code we can know if there is actually 0 or NA in our dataframes.
 
 print("-------------------------raw_data 0 values and NA-------------------------")
 check_df_0_values(raw_data)
-check_for_null_and_0_values(raw_data)
+check_for_null_and_na_values(raw_data)
 
 print("-------------------------raw_nationalities 0 values and NA-------------------------")
 check_df_0_values(raw_nationalities)
-check_for_null_and_0_values(raw_nationalities)
+check_for_null_and_na_values(raw_nationalities)
 
 print("-------------------------raw_github_issues 0 values and NA-------------------------")
 check_df_0_values(raw_github_issues)
-check_for_null_and_0_values(raw_github_issues)
+check_for_null_and_na_values(raw_github_issues)
 
 print("-------------------------raw_github_prs 0 values and NA-------------------------")
 check_df_0_values(raw_github_prs)
-check_for_null_and_0_values(raw_github_prs)
+check_for_null_and_na_values(raw_github_prs)
 
 print("-------------------------raw_github_repos 0 values and NA-------------------------")
 check_df_0_values(raw_github_repos)
-check_for_null_and_0_values(raw_github_repos)
+check_for_null_and_na_values(raw_github_repos)
 """
 
 #set the only null values in IN_OPEN_SOURCE to NA
@@ -106,6 +106,7 @@ columns_to_drop = ["DESCRIPTION", "WEBSITE", "DOMAIN_NAME", "DOMAIN_NAME_REGISTE
 raw_data = raw_data.drop(*columns_to_drop)
 
 print("-----------------New schema after dropping columns-----------------")
+print(duplicate_count(raw_data))
 raw_data.printSchema()
 #endregion
 
@@ -151,11 +152,25 @@ columns_to_select = [
     "GITHUB_LANGUAGE","GITHUB_LANGUAGE_TYPE",
     "GITHUB_LANGUAGE_REPOS"]
 
+filtered_github_data = raw_data.filter(
+    ~(
+        (col("GITHUB_REPO") == "NA") &
+        (col("GITHUB_REPO_STARS") == "NA") &
+        (col("GITHUB_REPO_FORKS") == "NA") &
+        (col("GITHUB_REPO_SUBSCRIBERS") == "NA") &
+        (col("GITHUB_REPO_CREATED") == "NA") &
+        (col("GITHUB_REPO_ISSUES") == "NA") &
+        (col("GITHUB_LANGUAGE") == "NA") &
+        (col("GITHUB_LANGUAGE_TYPE") == "NA") &
+        (col("GITHUB_LANGUAGE_REPOS") == "NA")
+    )
+)
 # Select the specified columns from the raw_data DataFrame
-github_dataFrame = raw_data.select(*columns_to_select)
+github_dataFrame = filtered_github_data.select(*columns_to_select)
 
 #show the general dataframe
 print('-----------------Github Datafram Schema-----------------')
+print(duplicate_count(github_dataFrame))
 github_dataFrame.printSchema()
 #endregion
 
@@ -173,11 +188,23 @@ columns_to_select = [
                                 "WIKIPEDIA_CREATED","WIKIPEDIA_REVISION_COUNT"  
                                 ]
 
+#filter the data that has NA in the columns we care about
+filtered_wikipedia_data = raw_data.filter(
+    ~(
+        (col("WIKIPEDIA") == "NA") &
+        (col("WIKIPEDIA_DAILY_PAGE_VIEWS") == "NA") &
+        (col("WIKIPEDIA_BACKLINKS_COUNT") == "NA") &
+        (col("WIKIPEDIA_APPEARED") == "NA") &
+        (col("WIKIPEDIA_CREATED") == "NA") &
+        (col("WIKIPEDIA_REVISION_COUNT") == "NA")
+    )
+)
 # Select the specified columns from the raw_data DataFrame
-wikipedia_dataFrame = raw_data.select(*columns_to_select)
+wikipedia_dataFrame = filtered_wikipedia_data.select(*columns_to_select)
 
 #show the general dataframe
 print("-----------------Wikipedia Datafram schema-----------------")
+print(duplicate_count(wikipedia_dataFrame))
 wikipedia_dataFrame.printSchema()
 #endregion
 
@@ -216,7 +243,8 @@ git_columns  = [
 
 github_data = replace_na_value(github_dataFrame, git_columns, "0")
 
-print("-----------------Here we can see if in github some columns where NA was chanfed for 0-----------------")
+print("-----------------Here we can see if in github some columns where NA was changed for 0-----------------")
+print(duplicate_count(github_data))
 github_data.show()
 
 wiki_columns = [
@@ -228,6 +256,81 @@ wiki_columns = [
 wiki_data = replace_na_value(wikipedia_dataFrame, wiki_columns, "0")
 
 wiki_data.show()
+#endregion
+
+#region naming convention for type
+'''
+Set the type to lower case and change the coding for being more readable:
+pl -> programming language
+queryLanguage -> query language
+textMarkup -> text markup
+dataNotation -> data notation
+stylesheetLanguage -> stylesheet language
+hardwareDescriptionLanguage -> hardware description language
+contractLanguage -> contract language
+grammarLanguage -> grammar language
+xmlFormat -> xml format
+configFormat -> config format
+textEncodingFormat -> text encoding format
+dataValidationLanguage -> data validation language
+jsonFormat -> json format
+barCodeFormat -> bar code format
+timeFormat -> time format
+wikiMarkup -> wiki markup
+diffFormat -> diff format
+optimizingCompiler -> optimizing compiler
+musicalNotation -> musical notation
+numeralSystem -> numeral system
+contractLanguage -> contract language
+knowledgeBase -> knowledge base
+headerLang -> header language
+timeFormat -> time format
+unixApplication -> unix application
+yamlFormat -> yaml format
+'''
+def change_type_name(data_frame:DataFrame, column_name:str) -> DataFrame:
+    data_frame = data_frame.withColumn(column_name, when(col(column_name) == "pl", "programming language")
+                            .when(col(column_name) == "queryLanguage", "query language")
+                            .when(col(column_name) == "textMarkup", "text markup")
+                            .when(col(column_name) == "dataNotation", "data notation")
+                            .when(col(column_name) == "stylesheetLanguage", "stylesheet language")
+                            .when(col(column_name) == "hardwareDescriptionLanguage", "hardware description language")
+                            .when(col(column_name) == "contractLanguage", "contract language")
+                            .when(col(column_name) == "grammarLanguage", "grammar language")
+                            .when(col(column_name) == "xmlFormat", "xml format")
+                            .when(col(column_name) == "configFormat", "config format")
+                            .when(col(column_name) == "textEncodingFormat", "text encoding format")
+                            .when(col(column_name) == "dataValidationLanguage", "data validation language")
+                            .when(col(column_name) == "jsonFormat", "json format")
+                            .when(col(column_name) == "barCodeFormat", "bar code format")
+                            .when(col(column_name) == "timeFormat", "time format")
+                            .when(col(column_name) == "wikiMarkup", "wiki markup")
+                            .when(col(column_name) == "diffFormat", "diff format")
+                            .when(col(column_name) == "optimizingCompiler", "optimizing compiler")
+                            .when(col(column_name) == "musicalNotation", "musical notation")
+                            .when(col(column_name) == "numeralSystem", "numeral system")
+                            .when(col(column_name) == "contractLanguage", "contract language")
+                            .when(col(column_name) == "knowledgeBase", "knowledge base")
+                            .when(col(column_name) == "headerLang", "header language")
+                            .when(col(column_name) == "timeFormat", "time format")
+                            .when(col(column_name) == "unixApplication", "unix application")
+                            .when(col(column_name) == "yamlFormat", "yaml format")
+                            .otherwise(col(column_name))
+    )
+    return data_frame
+
+#change the type name in raw data
+general_dataFrame = change_type_name(general_dataFrame, "TYPE")
+#endregion
+
+#region checking nationalities
+print("-----------------Nationalities Dataframe-----------------")
+print(f"The number of duplicates in the nationalities dataframe is: {duplicate_count(raw_nationalities)}")
+
+#filter the duplicates
+raw_nationalities = raw_nationalities.dropDuplicates()
+print(f"The number of duplicates in the nationalities dataframe after dropping them is: {duplicate_count(raw_nationalities)}")
+raw_nationalities.printSchema()
 #endregion
 
 #region cast into integer
@@ -247,7 +350,7 @@ columns_to_cast = ["GITHUB_REPO_STARS", "GITHUB_REPO_FORKS", "GITHUB_REPO_SUBSCR
 github_data = cast_column_into_integer(github_data, columns_to_cast)
 
 #cast to integer the columns of the general table
-columns_to_cast = ['NUMBER_OF_USERS','NUMBER_OF_JOBS']
+columns_to_cast = ['NUMBER_OF_USERS','NUMBER_OF_JOBS', 'LANGUAGE_RANK']
 general_dataFrame = cast_column_into_integer(general_dataFrame, columns_to_cast)
 
 #cast to integer column in the nationality table
@@ -272,14 +375,37 @@ general_dataFrame = general_dataFrame.withColumnRenamed("TITLE", "Language")
 github_prs_dataFrame = github_prs_dataFrame.withColumnRenamed("NAME", "Language")
 github_issues_dataFrame = github_issues_dataFrame.withColumnRenamed("NAME", "Language")
 github_repo_dataFrame = github_repo_dataFrame.withColumnRenamed("LANGUAGE", "Language")
+nationality_dataFrame = nationality_dataFrame.withColumnRenamed("TITLE", "Language")
 #endregion
 
+print("-----------------Final Dataframes-----------------")
+duplicates = wiki_data.group_by("LANGUAGE").count().filter(col("COUNT") > 1)
+# Show the results
+duplicates.show()
 wiki_data.printSchema()
+
+duplicates = github_data.group_by("Language").count().filter(col("COUNT") > 1)
+# Show the results
+duplicates.show()
 github_data.printSchema()
+
+duplicates = general_dataFrame.group_by("Language").count().filter(col("COUNT") > 1)
+# Show the results
+duplicates.show()
 general_dataFrame.printSchema()
+
+duplicates = github_repo_dataFrame.group_by("Language").count().filter(col("COUNT") > 1)
+# Show the results
+duplicates.show()
 github_repo_dataFrame.printSchema()
+
 github_prs_dataFrame.printSchema()
 github_issues_dataFrame.printSchema()
+ 
+duplicates = nationality_dataFrame.group_by("Language").count().filter(col("COUNT") > 1)
+# Show the results
+duplicates.show()
+nationality_dataFrame.printSchema()
 
 #send the dataframes to snowpark
 github_data.write.save_as_table(table_name="JR_REFINED.REFINED_GITHUB_PROGRAMMING_LANGUAGES", mode="overwrite")
